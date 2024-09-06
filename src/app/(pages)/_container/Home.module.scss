@@ -1,0 +1,35 @@
+@import '/src/app/_styles/variables';
+@import '/src/app/_styles/utils';
+
+.Home {
+  font-family: 'Inter';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ant-radio-group {
+    margin: 15px 0;
+  }
+
+  .ant-btn {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  article {
+    padding: 15px;
+  }
+  // .CalendarOptions {
+  // }
+}
+
+// // desk mob xs sm md lg xl xxl
+// @include onlyIn(lg) {
+//   background-color: #f28181;
+// }

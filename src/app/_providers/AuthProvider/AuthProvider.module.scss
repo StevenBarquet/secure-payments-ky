@@ -1,0 +1,23 @@
+@import '/src/app/_styles/variables';
+@import '/src/app/_styles/utils';
+
+.AuthProvider {
+  font-family: 'Inter';
+  padding-inline: 20px;
+
+  h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: $primaryColor12;
+  }
+
+  p {
+    text-align: center;
+    font-size: 21px;
+  }
+}
+
+// // desk mob xs sm md lg xl xxl
+// @include onlyIn(lg) {
+//   background-color: #f28181;
+// }
