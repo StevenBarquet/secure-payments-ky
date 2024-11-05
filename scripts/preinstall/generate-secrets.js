@@ -13,7 +13,7 @@ export async function generateSecrets() {
     'src',
     'env',
     'profiles',
-    'secrets.js'
+    'secrets.mjs'
   );
 
   // Verifica si el archivo ya existe
