@@ -44,4 +44,4 @@ yarn-error.log*
 
 
 #custom
-src/env/profiles/secrets.js
+src/env/profiles/secrets.mjs

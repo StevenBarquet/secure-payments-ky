@@ -21,13 +21,12 @@
     "test-yup": "npx tsx ./src/server/scripts/testValidations.ts"
   },
   "dependencies": {
-    "@iconify/react": "4.1.1",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.25.0",
     "@trpc/client": "next",
     "@trpc/react-query": "next",
     "@trpc/server": "next",
-    "antd": "5.17.0",
+    "axios": "1.7.7",
     "debug": "4.3.4",
     "next": "^14.2.1",
     "react": "18.2.0",
@@ -41,6 +40,7 @@
     "zustand": "4.5.2"
   },
   "devDependencies": {
+    "@iconify/react": "5.0.2",
     "@types/debug": "4.1.12",
     "@types/eslint": "^8.56.2",
     "@types/node": "^20.11.20",

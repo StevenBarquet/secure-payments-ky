@@ -1,32 +1,28 @@
 @import '/src/app/_styles/variables';
 @import '/src/app/_styles/utils';
-
 .Home {
   font-family: 'Inter';
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #1c1c1c;
+  color: white;
 
-  h2 {
-    margin: 0;
-    padding: 0;
+  svg {
+    font-size: 55px;
+    animation: spin 1s linear infinite; /* Añade la animación */
   }
+}
 
-  .ant-radio-group {
-    margin: 15px 0;
+/* Define la animación de giro */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-
-  .ant-btn {
-    width: 200px;
-    margin-top: 20px;
+  100% {
+    transform: rotate(360deg);
   }
-
-  article {
-    padding: 15px;
-  }
-  // .CalendarOptions {
-  // }
 }
 
 // // desk mob xs sm md lg xl xxl

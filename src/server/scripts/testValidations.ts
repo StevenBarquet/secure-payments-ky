@@ -1,4 +1,3 @@
-import { yupValidator } from '../../shared/utils/yupUtils';
 import * as yup from 'yup';
 // import { timeRelatedVal } from '../entities/tareas/validations/model';
 
@@ -9,10 +8,8 @@ async function main() {
 
   const input = {taskType: 'single'};
   
-  const result = await yupValidator(input, _anySchema);
   console.log('--VALIDATION RESULTS--');
   console.log('Input: ', input);
-  console.log('Result: ', !!result);
   
 }
 

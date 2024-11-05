@@ -1,4 +1,4 @@
-import { secrets } from './secrets.js';
+import { secrets } from './secrets.mjs';
 
 class Environments {
   // ---------------------------BACKEND ------

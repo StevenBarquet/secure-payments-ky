@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "src/env/profiles/secrets.mjs"  ],
   "exclude": ["node_modules", "scripts", "generators"]
 }
